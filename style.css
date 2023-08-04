@@ -21,8 +21,13 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-h2,
+h2{
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
 h3 {
+    margin: 20px 0;
   color: white;
   text-align: center;
   font-size: 2.5rem;
@@ -30,13 +35,20 @@ h3 {
 
 .col {
   width: 1000px;
-  height: 100px;
   color: white;
   justify-content: center;
-  text-align: center;
   display: flex;
 }
 
+.col div {
+  text-align: center;
+  width: 250px;
+}
+
 input {
-  display: block;
+  background-color: rgb(255, 255, 255, 0.9);
+  height: 50px;
+  width: 40%;
+  border-color: transparent;
+  border-radius: 5px;
 }
