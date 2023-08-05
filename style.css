@@ -51,4 +51,6 @@ input {
   width: 40%;
   border-color: transparent;
   border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
 }
